@@ -1,0 +1,22 @@
+.d-column {
+  flex: 1;
+  padding: 0.25em;
+  flex-basis: 200px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.d-not-first-editor {
+  border-left: 1px solid #ded3e2;
+}
+
+.d-editor-container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.d-column-header {
+  text-align: center;
+  padding: 0.5em;
+  font-size: large;
+}
